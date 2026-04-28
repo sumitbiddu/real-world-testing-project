@@ -1,4 +1,5 @@
-# Exploratory Testing Session - Checkout Flow
+This exploratory session was performed without predefined test cases to simulate real user behavior and uncover unexpected system issues.
+
 
 ## Objective
 Understand system behavior beyond predefined test cases.
