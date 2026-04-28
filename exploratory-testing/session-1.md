@@ -1,20 +1,32 @@
-This exploratory session was performed without predefined test cases to simulate real user behavior and uncover unexpected system issues.
-
+# Exploratory Testing Session – Checkout Flow
 
 ## Objective
-Understand system behavior beyond predefined test cases.
+Explore the checkout process without predefined test cases to identify real user behavior risks and system weaknesses.
+
+---
+
+## Approach
+I tested the flow by intentionally behaving like a real user instead of following structured test cases. This included refreshing pages, navigating back and forth, and simulating interruptions during payment.
+
+---
 
 ## Observations
-- No loading indicator during payment processing
-- Refreshing during payment causes inconsistent behavior
-- System does not clearly prevent double submission
+
+- No clear loading indicator during payment processing
+- Page refresh during checkout can lead to inconsistent system behavior
+- Multiple rapid actions on checkout button may cause unexpected results
+- Error handling is not always user-friendly or clear
+
+---
 
 ## Risks Identified
-- Duplicate transactions
-- User confusion during slow network conditions
-- Backend inconsistency in order handling
 
-## Suggestions
-- Add loading indicator during processing
-- Disable button after first click
-- Implement duplicate request prevention
+- Duplicate transactions under abnormal user behavior
+- Poor user experience during slow network conditions
+- Lack of protection against repeated submissions
+- Unclear system state during payment processing
+
+---
+
+## Conclusion
+The system works correctly under normal conditions, but shows potential instability under real-world unpredictable user behavior. These scenarios are important for production reliability.
