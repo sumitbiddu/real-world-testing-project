@@ -1,22 +1,33 @@
-
 # Login Test Scenarios
 
-While testing login functionality, I focused on both expected and unexpected user behavior.
+## Objective
+Validate login functionality under normal, negative, and edge conditions to ensure system reliability and proper validation handling.
+
+---
 
 ## Functional Scenarios
-- User logs in with valid credentials → dashboard opens
-- Invalid password → error message displayed
-- Empty fields → validation message shown
+- User logs in with valid credentials → successful login
+- Invalid password → appropriate error message displayed
+- Invalid username → login denied with error message
+- Empty fields → validation messages shown
+
+---
 
 ## Negative Scenarios
 - SQL injection attempt in username field
-- Special characters in inputs
-- Invalid email format
+- Script injection in input fields
+- Invalid email format (if email-based login exists)
+- Special characters in credentials
+
+---
 
 ## Edge Cases
-- Very long username/password
-- Multiple failed login attempts
-- Copy-paste password issues
+- Very long username/password inputs
+- Rapid multiple login attempts
+- Copy-paste password validation issues
+- Session handling after repeated failed attempts
+
+---
 
 ## Observations
-Error messages should be clear and consistent. In some cases, response time was slightly delayed under repeated login attempts.
+Login functionality behaves correctly under standard inputs, but should ensure stronger validation against injection attempts and repeated failure handling.
