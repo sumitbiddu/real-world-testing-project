@@ -1,72 +1,85 @@
-# Project 1 – E-commerce QA Testing Portfolio
+# Project 1 – Real World QA Testing (E-commerce System)
 
-This project demonstrates my approach to testing a real-world e-commerce application from a QA perspective. It focuses on functional testing, exploratory testing, defect reporting, and understanding system behavior under different user conditions.
+## Overview
 
----
+This project demonstrates how I approach testing a real-world e-commerce application from a QA perspective.  
+Instead of focusing only on writing test cases, I focus on understanding how the system behaves under real user conditions, including edge cases, failures, and unexpected actions.
 
-## 📌 Project Overview
-
-In this project, I simulate testing an e-commerce platform covering key user flows such as login, checkout, and basic application behavior.
-
-The goal is not just to validate features, but to identify risks, edge cases, and real-world issues that can affect user experience.
+The goal is to show **how I think as a QA engineer**, not just what I test.
 
 ---
 
-## 🧪 What This Project Covers
+## What I tested
 
-### 1. Test Scenarios
-- Login functionality testing
-- Positive and negative test cases
-- Edge case identification
+### 1. Functional Testing
+- Login functionality validation
+- Input field validations
+- Expected user flows
 
-### 2. Bug Reporting
-- Realistic defect documentation
-- Severity and impact analysis
-- Reproduction steps and expected vs actual results
+### 2. Negative Testing
+- Invalid credentials handling
+- SQL injection attempts
+- Empty and malformed inputs
 
 ### 3. Exploratory Testing
-- Unscripted testing approach
-- System behavior under unexpected user actions
-- Risk identification beyond test cases
+- Page refresh during checkout
+- Rapid user actions
+- System behavior under unexpected usage
 
-### 4. Automation Mapping
-- Selenium (POM approach)
-- Cucumber BDD framework
-- Key flow automation strategy
+### 4. Defect Identification
+- Logged realistic production-like bugs
+- Focused on impact and user risk
+- Highlighted system reliability issues
 
----
-
-## 🧠 My QA Approach
-
-While testing, I focus on how real users interact with the system rather than only following predefined test cases.
-
-I try to identify:
-- Edge cases
-- System weaknesses
-- Business impact of issues
-- Behavior under unusual conditions
+### 5. Automation Approach
+- Identified stable flows for automation
+- Used Page Object Model (POM) structure
+- Mapped manual scenarios to automation candidates
 
 ---
 
-## 📊 Key Focus Areas
+## How I think as a QA
 
-- Functional correctness
-- Data validation
-- User experience issues
-- System reliability under edge conditions
+My approach is not limited to executing test cases.
 
----
+I focus on:
+- Where the system can fail in real usage
+- What risks impact users the most
+- What should be tested first under time pressure
+- What should NOT be automated or over-tested
 
-## 🔗 Project Flow
-
-Test Scenarios → Exploratory Testing → Bug Identification → Automation Coverage
-
-This represents my end-to-end QA thinking process.
+I believe good QA is about **risk detection, not just validation**.
 
 ---
 
-## 🛠 Tools & Technologies
+## Key testing mindset used in this project
 
-- Selenium WebDriver
-- Cucumber (BDD)
+- Think like a real user, not just a tester
+- Focus on system behavior under stress or unexpected actions
+- Prioritize critical business flows over minor UI checks
+- Identify gaps that could impact production stability
+
+---
+
+## Project Flow
+
+Test Scenarios → Exploratory Testing → Bug Identification → Automation Mapping
+
+This represents a realistic QA lifecycle approach used in enterprise environments.
+
+---
+
+## Tools & Concepts
+
+- Selenium WebDriver (Automation concept)
+- Cucumber (BDD approach)
 - Manual Testing Techniques
+- Exploratory Testing
+- Risk-based Testing
+
+---
+
+## Final Note
+
+This project is designed to show my QA mindset, not just documentation skills.  
+It reflects how I approach real-world systems, identify risks, and prioritize testing based on impact.
