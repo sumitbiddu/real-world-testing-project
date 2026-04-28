@@ -22,4 +22,4 @@ Critical
 - Poor user trust experience
 
 ## Notes
-This likely indicates missing idempotency handling or lack of request protection on backend.
+This issue was identified during exploratory testing of the checkout flow. It appears under real user behavior such as refreshing the page during payment processing, which is a common scenario in production environments.
