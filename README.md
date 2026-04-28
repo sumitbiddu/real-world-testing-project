@@ -1,47 +1,40 @@
 # Real World QA Testing Project
 
-This repository demonstrates how I approach testing in real-world applications — not just executing test cases, but understanding how systems behave under real user conditions.
+This project shows how I approach testing real applications by focusing on user behavior, edge cases, and system reliability instead of just executing test cases.
 
 ---
 
-## 🔍 What this project includes
+## What this project covers
 
-- Test scenario design for critical user flows
-- Real-world style bug reports
-- Exploratory testing observations
-- Automation approach using Selenium and Cucumber
+- Test scenarios for core functionality
+- Real-world bug reporting
+- Exploratory testing insights
+- Automation mapping for key flows
 
 ---
 
-## 🧠 My QA Approach
+## How I approach testing
+
+When I test a system, I don’t just verify expected behavior. I try to understand how the system behaves when users do unexpected things — wrong inputs, slow networks, repeated actions, or broken flows.
 
 I focus on:
-
-- Identifying edge cases and failure scenarios
-- Validating business logic, not just UI
-- Thinking from an end-user perspective
-- Exploring system behavior beyond defined test cases
+- Edge cases that are often missed
+- Business impact of issues
+- Real user behavior instead of ideal flows
 
 ---
 
-## 📁 Project Structure
+## Project flow
 
-- test-scenarios → Covers key functional flows
-- bug-reports → Real defect documentation
-- exploratory-testing → Observations from exploratory sessions
-- automation → Links to automated implementations
-
----
-
-## 🛠 Tools & Technologies
-
-- Selenium WebDriver
-- Cucumber (BDD)
-- Manual Testing Techniques
+- Test scenarios define expected behavior
+- Exploratory testing uncovers real issues
+- Bugs are documented based on actual observations
+- Automation validates key stable flows
 
 ---
 
-## 🚀 Objective
+## Tools used
 
-The goal of this project is to showcase my practical QA skills and how I think while testing real-world systems.# real-world-testing-project
-End-to-end QA testing project showcasing test scenarios, bug reports, exploratory testing, and automation approach.
+- Selenium
+- Cucumber
+- Manual testing techniques
