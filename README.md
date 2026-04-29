@@ -83,3 +83,8 @@ This represents a realistic QA lifecycle approach used in enterprise environment
 
 This project is designed to show my QA mindset, not just documentation skills.  
 It reflects how I approach real-world systems, identify risks, and prioritize testing based on impact.
+
+---
+
+This project is part of my QA Automation Portfolio:
+https://github.com/sumitbiddu/qa-automation-portfolio
